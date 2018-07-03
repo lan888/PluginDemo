@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-alpha3.aar\25c7991e262338590eb235860a159fce\jars\classes.jar
+FILE.hash=8bd88b301f5eab4ae3dcef020c653f52337657f8336e0a7b42ced999260cb00a
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

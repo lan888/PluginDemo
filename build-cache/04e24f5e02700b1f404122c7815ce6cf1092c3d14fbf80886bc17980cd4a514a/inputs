@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-alpha3.aar\7f9befb0212405dc0b4a44d8f3edc978\jars\classes.jar
+FILE.hash=5ac2c84d13c7ae9df23e366f212559667403d5875d7c8855a556a7cb44c0a93c
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

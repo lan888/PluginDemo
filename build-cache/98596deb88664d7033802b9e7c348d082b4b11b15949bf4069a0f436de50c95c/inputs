@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\0fee87cae617ff8c0d6159f0a82c046e\jars\classes.jar
+FILE.hash=db4fb60321a6b46731b97a028360cbe5debd66a8b655ce36d264e2c82a0bfd20
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

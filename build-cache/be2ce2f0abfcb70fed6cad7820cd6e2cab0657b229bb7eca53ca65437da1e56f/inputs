@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=F:\Android Code\PluginDemo\app\build\intermediates\transforms\desugar\debug\5.jar
+FILE.hash=bbd10dbfc030de8df7fd47f85b0e8a7bd4320f146a40f7f0589a448f5997bc34
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

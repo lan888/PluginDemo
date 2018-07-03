@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-alpha3.aar\713c666fc6f1cdea8c3e09406e4a059f\jars\classes.jar
+FILE.hash=28f2072f042232a4fcae3b6ec9aafe13adba61d08c114b5d30a11fc3e56bce3a
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-alpha3.aar\8818e4e3967bd2e393d669fc6f929b3d\jars\classes.jar
+FILE.hash=6e47aa7b341d82df11b292d49f630d857b315fba72dda02102eb2155f6e9ef34
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

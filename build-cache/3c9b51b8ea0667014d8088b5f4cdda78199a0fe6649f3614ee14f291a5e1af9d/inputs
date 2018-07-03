@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\collections\28.0.0-alpha3\a037a9517c0b0bdaae96b21128534af4ba706c0c\collections-28.0.0-alpha3.jar
+FILE.hash=824e3361a0ca2154db6962252f9e340c83448c099e3d3017b9fee964396ad324
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true

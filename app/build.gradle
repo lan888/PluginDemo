@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply from: HOST_FAIRY_SCRIPT
+
+repositories {
+    google()
+}
+
+android {
+    compileSdkVersion 27
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    defaultConfig {
+        applicationId "com.example.administrator.plugindemo"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        textReport false
+        htmlReport false
+        xmlReport false
+    }
+
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    api('com.limpoxe.fairy:FairyPlugin:0.0.63-snapshot@aar')//通过后缀@aar来中断依赖传递
+    implementation project(':FairyPlugin')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.tencent.bugly:crashreport:2.1.5'
+    //implementation 'com.umeng.analytics:analytics:latest.integration'
+
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //Test ButterKnife
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+fairy {
+    //可选配置，用于指定插件进程名。
+    //不设置即使用默认的独立进程(:plugin)
+    //设置为空串或者null即是和宿主同进程
+    //pluginProcess = ":plugin"
+}

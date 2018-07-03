@@ -1,0 +1,10 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE.path=C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar
+FILE.hash=55f82d93e188b5183b71f4f3bace5725c900b737c3514c841114e225627ff88f
+DX_VERSION=1.14
+JUMBO_MODE=true
+OPTIMIZE=true
+DEXER_TOOL=DX
+CACHE_KEY_VERSION=4
+MIN_SDK_VERSION=15
+IS_DEBUGGABLE=true
